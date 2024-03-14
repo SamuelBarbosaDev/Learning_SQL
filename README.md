@@ -22,6 +22,12 @@ Este repositório contém os seguintes tipos de recursos:
 - **Notes**: Documentos e notas que explicam conceitos SQL em detalhes.
 - **Projects**: Projetos práticos que aplicam SQL.
 
+## Recursos Adicionais
+
+Além deste repositório, aqui estão alguns recursos adicionais que podem ajudar em sua jornada de aprendizado em SQL.
+
+- [W3 Schools - PostgreSQL](https://www.w3schools.com/postgresql/index.php)
+
 ## Contribuições
 
 Se você deseja contribuir para este repositório, fique à vontade para enviar pull requests. Contribuições são bem-vindas, seja na forma de correções, adições de novos exemplos, exercícios ou notas.

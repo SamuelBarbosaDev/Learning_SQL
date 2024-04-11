@@ -1,4 +1,5 @@
 -- Selecionando o preço médio
 
 SELECT
-    avg()
+    avg(price)
+from products;

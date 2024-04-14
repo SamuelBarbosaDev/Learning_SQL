@@ -23,3 +23,15 @@
 ```
 
 [Fonte](https://wiki.debian.org/PostgreSql)
+
+## Comandos para linux
+
+- Criando usuário
+```shell
+    sudo -u postgres creatuser -D -A -P my_user_name
+```
+
+- Criando banco de dados
+```shell
+    sudo -u postgres createdb -O my_user_name db_teste
+```

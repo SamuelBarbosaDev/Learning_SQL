@@ -27,6 +27,7 @@ Este repositório contém os seguintes tipos de recursos:
 Além deste repositório, aqui estão alguns recursos adicionais que podem ajudar em sua jornada de aprendizado em SQL.
 
 - [W3 Schools - PostgreSQL](https://www.w3schools.com/postgresql/index.php)
+- [Join](https://medium.com/@aneuk3/sql-joins-defcf817e8cf)
 
 ## Contribuições
 

@@ -24,3 +24,12 @@ Diferença entre WHERE e HAVING:
         aplicada às linhas individuais, enquanto a condição 
         na cláusula HAVING é aplicada aos grupos de linhas.
 "
+
+-- Exemplo De Uso
+SELECT customers.customer_name, SUM(products.price)
+FROM order_details
+LEFT JOIN products ON order_details.product_id = products.product_id
+LEFT JOIN orders ON order_details.order_id = orders.order_id
+LEFT JOIN customers ON orders.customer_id = customers.customer_id
+GROUP BY customer_name
+HAVING SUM(products.price) > 1000.00;

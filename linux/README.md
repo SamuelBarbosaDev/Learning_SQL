@@ -40,17 +40,17 @@ sudo -u postgres createdb -O my_user_name db_teste
 
 ### Como resolver 'FATAL: password authentication failed for user "postgres"' in PostgreSQL or pgAdmin4
 
-- Inicie uma nova sessão com o usuário **postgres**:
+1. Inicie uma nova sessão com o usuário **postgres**:
 ```shell
 sudo -i -u postgres
 ```
 
-- Vá ao terminal do Postgres
+2. Vá ao terminal do Postgres
 ```shell
 psql
 ```
 
-- Altera a senha do seu usuário **postgres**
+3. Altera a senha do seu usuário **postgres**
 ```shell
 \password postgres
 ```

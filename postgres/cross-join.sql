@@ -1,8 +1,8 @@
 SELECT
-    testproduct_id,
+    test_product_id,
     product_name,
     category_id,
-FROM testproduct_id
+FROM test_product_id
 
 CROSS JOIN categories
 

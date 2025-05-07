@@ -3,4 +3,4 @@ SELECT
     *
 FROM CUSTOMERS
 
-WHERE country NOT IN ('Germany', 'France', 'UK')
+WHERE country NOT IN ('Germany', 'France', 'UK');

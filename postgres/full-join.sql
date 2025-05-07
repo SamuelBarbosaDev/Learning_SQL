@@ -1,12 +1,13 @@
 SELECT
-    testproducts.testproduct_id,
-    testproducts.product_name,
-    testproducts.category_id,
+    test_products.test_product_id,
+    test_products.product_name,
+    test_products.category_id,
     categories.category_name,
     categories.description
-FROM testproducts
+FROM test_products
 
-FULL JOIN categories ON testproducts.category_id = categories.category_id;
+FULL JOIN categories ON test_products.category_id = categories.category_id;
+
 "
 O FULL JOIN no PostgreSQL combina dados de duas tabelas e retorna todas as linhas de ambas, 
 incluindo aquelas que têm correspondência e aquelas que não têm correspondência 

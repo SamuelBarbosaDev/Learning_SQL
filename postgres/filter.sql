@@ -1,5 +1,4 @@
 -- Filtrando por cidade
-
 select
     country,
     city

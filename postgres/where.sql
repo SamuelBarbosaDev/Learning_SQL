@@ -105,9 +105,9 @@ Return all records where the brand does NOT start with a 'b' (case insensitive):
 SELECT * FROM cars
 WHERE brand NOT ILIKE 'b%';
 
-"Example: NOT IN
+'Example: NOT IN
 
-Return all records where the brand is NOT present in this list: ('Volvo', 'Mercedes', 'Ford'):"
+Return all records where the brand is NOT present in this list: ('Volvo', 'Mercedes', 'Ford'):'
 SELECT * FROM cars
 WHERE brand NOT IN ('Volvo', 'Mercedes', 'Ford');
 
@@ -121,4 +121,4 @@ WHERE year NOT BETWEEN 1970 AND 1980;
 
 Return all records where the model is NOT null:'
 SELECT * FROM cars
-WHERE model IS NOT NULL; 
+WHERE model IS NOT NULL;

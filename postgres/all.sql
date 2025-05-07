@@ -11,7 +11,7 @@ WHERE product_id = ALL(
 
 '
     O operador ALL no PostgreSQL permite comparar um valor com uma 
-    lista de valores retornados por uma subconsulta. Ele é usado 
+    lista de valores retornados por uma sub-consulta. Ele é usado 
     para verificar se um valor atende a uma condição para todos os 
     valores na lista.
 '

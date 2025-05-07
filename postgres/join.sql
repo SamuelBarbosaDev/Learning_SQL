@@ -1,5 +1,4 @@
 -- Mesclando as tabelas para obter o nome da categoria do produto]
-
 SELECT
 	products.product_id,
 	products.product_name,

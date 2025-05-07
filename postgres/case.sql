@@ -7,6 +7,7 @@ SELECT
 		'Normal Product'
 	END AS "Price Category"
 FROM products
+
 '
     O operador CASE no PostgreSQL permite criar expressões condicionais 
     que produzem resultados diferentes com base em condições especificadas. 

@@ -1,11 +1,11 @@
 -- Obtendo o nome da categoria
 SELECT
-	testproduct_id,
+	test_product_id,
 	product_name,
 	category_name
-FROM testproducts
+FROM test_products
 
-RIGHT JOIN categories ON testproducts.category_id = categories.category_id;
+RIGHT JOIN categories ON test_products.category_id = categories.category_id;
 
 '
 O RIGHT JOIN é uma operação de junção usada em SQL para combinar 

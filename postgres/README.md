@@ -193,7 +193,7 @@ alter table <table-name> add foreign key (<column-name>) references <foreign-tab
 alter table <table-name> add foreign key (<column-name>) references <foreign-table-name>(<private-key>) on delete cascade;
 ```
 
-### 5.4. Exclusão 
+### 5.4. Exclusão
 
 **Exclui usuário:**
 

@@ -9,7 +9,7 @@ Bem-vindo ao repositório! Este repositório é um espaço dedicado ao aprendiza
 O principal objetivo deste repositório é fornecer uma coleção de recursos e exemplos que me ajudarão a aprender SQL de forma eficaz. Aqui estão alguns dos principais objetivos:
 
 - Aprender os fundamentos do SQL, incluindo consultas SELECT, INSERT, UPDATE e DELETE.
-- Explorar tópicos avançados, como JOINs, subconsultas e índices.
+- Explorar tópicos avançados, como JOINs, sub-consultas e índices.
 - Praticar suas habilidades com exercícios e desafios SQL.
 - Compreender o design de banco de dados e modelagem relacional.
 

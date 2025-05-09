@@ -2,4 +2,4 @@
 \dt
 
 -- Ou
-\d
+\d <table-name>
